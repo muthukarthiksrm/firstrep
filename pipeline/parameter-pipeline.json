@@ -91,14 +91,7 @@
 			{
 				"name": "Copy data2",
 				"type": "Copy",
-				"dependsOn": [
-					{
-						"activity": "Copy data1",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -184,14 +177,7 @@
 			{
 				"name": "Delete1",
 				"type": "Delete",
-				"dependsOn": [
-					{
-						"activity": "Copy data2",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
