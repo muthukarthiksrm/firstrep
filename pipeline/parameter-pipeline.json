@@ -219,14 +219,7 @@
 							}
 						}
 					},
-					"logStorageSettings": {
-						"linkedServiceName": {
-							"referenceName": "AzureDataLakeStorage1",
-							"type": "LinkedServiceReference"
-						},
-						"path": "container-muthusr/project/output"
-					},
-					"enableLogging": true,
+					"enableLogging": false,
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"recursive": true,
