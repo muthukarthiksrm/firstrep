@@ -210,7 +210,7 @@
 							"referenceName": "AzureDataLakeStorage1",
 							"type": "LinkedServiceReference"
 						},
-						"path": "container-muthusr/project"
+						"path": "container-muthusr/project/output"
 					},
 					"enableLogging": true,
 					"storeSettings": {
