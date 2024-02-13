@@ -1,0 +1,9 @@
+{
+	"name": "df-muthusr-02",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "93dea6a9-e329-4802-b7c8-6b2b85e4be59",
+		"tenantId": "efaa9f6b-ff97-42ca-af0b-4f4e422caf34"
+	}
+}
