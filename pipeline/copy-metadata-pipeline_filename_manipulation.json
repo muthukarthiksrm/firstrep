@@ -142,7 +142,7 @@
 											"type": "Expression"
 										},
 										"ds_directory": {
-											"value": "@if(startswith(item().name,'Sales'),\nconcat(string(pipeline().parameters.pp_output_directory),'/Sales'),concat(string(pipeline().parameters.pp_output_directory),'/Marketing'))",
+											"value": "@if(startswith(item().name,'Sales'),concat(string(pipeline().parameters.pp_output_directory),'/Sales'),concat(string(pipeline().parameters.pp_output_directory),'/Marketing'))",
 											"type": "Expression"
 										},
 										"ds_filename": {
