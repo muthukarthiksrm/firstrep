@@ -142,7 +142,7 @@
 											"type": "Expression"
 										},
 										"ds_directory": {
-											"value": "@concat(pipeline().parameters.pp_output_directory,'\\Sales')",
+											"value": "@concat(pipeline().parameters.pp_output_directory,'/Sales')",
 											"type": "Expression"
 										},
 										"ds_filename": {
@@ -235,7 +235,7 @@
 											"type": "Expression"
 										},
 										"ds_directory": {
-											"value": "@concat(pipeline().parameters.pp_output_directory,'\\Marketing')",
+											"value": "@concat(pipeline().parameters.pp_output_directory,'/Marketing')",
 											"type": "Expression"
 										},
 										"ds_filename": {
