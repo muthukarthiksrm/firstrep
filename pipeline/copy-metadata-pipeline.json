@@ -146,7 +146,7 @@
 											"type": "Expression"
 										},
 										"ds_filename": {
-											"value": "@item()",
+											"value": "@item().name",
 											"type": "Expression"
 										}
 									}
