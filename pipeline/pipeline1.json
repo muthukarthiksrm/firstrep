@@ -14,6 +14,9 @@
 					"secureInput": false
 				},
 				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/muthukarthik.sr@outlook.com/AzureDataBricksFirstNotebook"
+				},
 				"linkedServiceName": {
 					"referenceName": "AzureDatabricks1",
 					"type": "LinkedServiceReference"
