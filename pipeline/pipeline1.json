@@ -23,6 +23,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"range": {
+				"type": "string",
+				"defaultValue": "40"
+			}
+		},
 		"annotations": []
 	}
 }
